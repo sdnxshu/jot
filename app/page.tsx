@@ -1,9 +1,5 @@
-import React from 'react'
+import { NoteApp } from "@/components/note-app"
 
-const Page = () => {
-    return (
-        <div>Page</div>
-    )
+export default function Home() {
+  return <NoteApp />
 }
-
-export default Page
